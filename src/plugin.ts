@@ -1,7 +1,10 @@
 export type PluginMetadata = { [ index: string ] : any }
+export interface PluginConfig {
+    [index: string]: any;
+}
 
-export abstract class Plugin {
-    abstract init(): Plugin;
+export abstract class Plugin<PluginConfig> {
+    abstract init(): Plugin<PluginConfig>;
     abstract run(payload: PluginPayload): PluginResult
 }
 
