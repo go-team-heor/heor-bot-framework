@@ -1,0 +1,27 @@
+{
+  "name": "heor-bot-framework",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go-team-heor/heor-bot-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/go-team-heor/heor-bot-framework/issues"
+  },
+  "homepage": "https://github.com/go-team-heor/heor-bot-framework#readme"
+}
