@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "devDependencies": {
+    "@jest/globals": "^29.3.1",
     "@typescript-eslint/eslint-plugin": "^5.44.0",
     "@typescript-eslint/parser": "^5.44.0",
-    "eslint": "^8.28.0",
+    "eslint": "8.22.0",
+    "eslint-plugin-jsdoc": "^39.6.2",
+    "ts-jest": "^29.0.3",
     "typescript": "^4.9.3"
   },
   "repository": {
@@ -23,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/go-team-heor/heor-bot-framework/issues"
   },
-  "homepage": "https://github.com/go-team-heor/heor-bot-framework#readme"
+  "homepage": "https://github.com/go-team-heor/heor-bot-framework#readme",
+  "dependencies": {
+    "@types/node": "^18.11.9"
+  }
 }
