@@ -3,9 +3,9 @@ export interface PluginConfig {
     [index: string]: any;
 }
 
-export abstract class Plugin<T> {
-    abstract init(config: T): Plugin<T>;
-    abstract run(payload: PluginPayload): PluginResult
+export interface Plugin<T> {
+    init(): Plugin<T>;
+    run(payload: PluginPayload): PluginResult
 }
 
 export class PluginResult {
