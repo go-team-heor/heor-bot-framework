@@ -1,11 +1,14 @@
 import MarkovChain from "purpl-markov-chain";
 type GeneratorID = string;
 export declare class MarkovGenerator {
+    private _initialized;
     private chain;
     private censor;
     constructor(chain: MarkovChain);
+    get initialized(): boolean;
+    private set initialized(value);
+    initialize(): void;
     private scrub;
-    load(corpus: string[]): Promise<void>;
     addPhrase(phrase: string): Promise<void>;
     generate(options?: {}): Promise<string>;
 }
