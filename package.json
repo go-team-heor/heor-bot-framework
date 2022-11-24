@@ -3,7 +3,7 @@
   "description": "",
   "version": "1.0.0",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "types": "lib/@types/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"

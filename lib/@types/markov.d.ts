@@ -6,6 +6,7 @@ export declare class MarkovGenerator {
     constructor(chain: MarkovChain);
     private scrub;
     load(corpus: string[]): Promise<void>;
+    addPhrase(phrase: string): Promise<void>;
     generate(options?: {}): Promise<string>;
 }
 export declare class MarkovGeneratorRepository {
