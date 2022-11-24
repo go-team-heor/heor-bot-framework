@@ -7,7 +7,8 @@
     "outDir": "lib",                        /* Redirect output structure to the directory. */
     "rootDir": "src",                          /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     "moduleResolution": "node",
-    "sourceMap": true,
+    "sourceMap": false,
+    "declaration": true,
     "strict": true,                           /* Enable all strict type-checking options. */
     "noImplicitAny": false,                 /* Raise error on expressions and declarations with an implied 'any' type. */
     "resolveJsonModule": true,
