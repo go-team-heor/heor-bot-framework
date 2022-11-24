@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/@types/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf ./lib; tsc",
     "test": "jest"
   },
   "devDependencies": {
@@ -31,7 +31,10 @@
   "dependencies": {
     "@types/node": "^18.11.9",
     "censor-sensor": "^1.0.6",
+    "cld": "^2.8.4",
+    "compromise": "^14.7.1",
     "detergent": "^7.1.0",
-    "purpl-markov-chain": "^2.0.3"
+    "purpl-markov-chain": "^2.0.3",
+    "sentiment": "^5.0.2"
   }
 }
