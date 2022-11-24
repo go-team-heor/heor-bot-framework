@@ -9,7 +9,7 @@
     "moduleResolution": "node",
     "sourceMap": false,
     "declaration": true,
-    "declarationDir": "lib/@types",
+    "declarationDir": "lib",
     "skipLibCheck": true,
     "strict": true,                           /* Enable all strict type-checking options. */
     "noImplicitAny": false,                 /* Raise error on expressions and declarations with an implied 'any' type. */
