@@ -28,6 +28,9 @@
   },
   "homepage": "https://github.com/go-team-heor/heor-bot-framework#readme",
   "dependencies": {
-    "@types/node": "^18.11.9"
+    "@types/node": "^18.11.9",
+    "censor-sensor": "^1.0.6",
+    "detergent": "^7.1.0",
+    "purpl-markov-chain": "^2.0.3"
   }
 }
