@@ -3,6 +3,7 @@ module.exports = {
         "browser": true,
         "es6": true
     },
+    "ignorePatterns": [".eslintrc.js"],
     "extends": [
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking"
@@ -15,7 +16,6 @@ module.exports = {
     "plugins": [
         "eslint-plugin-jsdoc",
         "eslint-plugin-prefer-arrow",
-        "eslint-plugin-react",
         "@typescript-eslint"
     ],
     "root": true,
