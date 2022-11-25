@@ -8,7 +8,9 @@
     "build": "rm -rf ./lib; tsc",
     "test": "jest"
   },
-  "eslintIgnore": ["lib/**/*"],
+  "eslintIgnore": [
+    "lib/**/*"
+  ],
   "devDependencies": {
     "@jest/globals": "^29.3.1",
     "@types/node": "^18.11.9",
@@ -33,6 +35,7 @@
   },
   "homepage": "https://github.com/go-team-heor/heor-bot-framework#readme",
   "dependencies": {
+    "@types/sentiment": "^5.0.1",
     "censor-sensor": "^1.0.6",
     "cld": "^2.8.4",
     "compromise": "^14.7.1",
