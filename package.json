@@ -8,6 +8,7 @@
     "build": "rm -rf ./lib; tsc",
     "test": "jest"
   },
+  "eslintIgnore": ["lib/**/*"],
   "devDependencies": {
     "@jest/globals": "^29.3.1",
     "@types/node": "^18.11.9",

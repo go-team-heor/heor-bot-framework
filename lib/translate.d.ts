@@ -27,6 +27,6 @@ export declare enum Languages {
     Spanish = "es",
     Swedish = "sv",
     Turkish = "tr",
-    Ukranian = "uk"
+    Ukrainian = "uk"
 }
 export declare function translateText(text: string, source: Languages, target: Languages): Promise<string>;
